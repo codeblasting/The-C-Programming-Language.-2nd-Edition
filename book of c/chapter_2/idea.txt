@@ -1,0 +1,24 @@
+include stdio
+
+func get_int => x:int, *a:string
+  if x+3==5 
+   ret 4
+    else
+     str+="labas"
+
+   ret 3
+
+
+
+
+#include <stdio.h>
+   
+    int get_int(int x, char* a){
+      if(x+3==5)
+        return 4;
+          else
+	   strcat(a,"labas");
+
+      return 3;
+
+    }      
